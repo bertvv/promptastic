@@ -81,7 +81,7 @@ class UserAtHost(Segment):
     fg = colors.foreground(theme.USERATHOST_FG)
 
     def init(self):
-        self.text = '{}@{}'.format(
+        self.text = ' {}@{} '.format(
             getpass.getuser(),
             socket.gethostname().replace('.local', '')
         )

@@ -10,7 +10,7 @@ class CurrentDir(Segment):
 
     def init(self, cwd):
         home = os.path.expanduser('~')
-        self.text = cwd.replace(home, '~')
+        self.text = ' {} '.format(cwd.replace(home, '~'))
 
 
 class ReadOnly(Segment):
