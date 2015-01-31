@@ -39,5 +39,5 @@ SEGMENTS = {
     'jobs': True,
 
     # Current time.
-    'time': True,
+    'time': False,
 }
